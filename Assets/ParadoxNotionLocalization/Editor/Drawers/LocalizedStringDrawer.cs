@@ -1,4 +1,5 @@
-﻿using NodeCanvas.Framework;
+﻿#if UNITY_EDITOR
+
 using ParadoxNotion.Design;
 using TSF.ParadoxNotion.Localization;
 using UnityEditor;
@@ -36,3 +37,5 @@ namespace NodeCanvas.Editor
         }
     }
 }
+
+#endif
